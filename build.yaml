@@ -1,17 +1,17 @@
 include:
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: crosses_left
     artifact-name: crosses_42_left
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: crosses_right
     artifact-name: crosses_42_right
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: crosses_left
     artifact-name: crosses_42_left_internal_osc
     cmake-args: -DCONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: crosses_right
     artifact-name: crosses_42_right_internal_osc
     cmake-args: -DCONFIG_CLOCK_CONTROL_NRF_K32SRC_RC=y
-  - board: nice_nano
+  - board: nice_nano@2.0.0
     shield: settings_reset
