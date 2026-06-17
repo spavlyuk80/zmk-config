@@ -1,3 +1,0 @@
-&trackball_peripheral_split {
-    /delete-property/ input-processors;
-};

@@ -1,3 +1,0 @@
-&trackball_central_listener {
-    /delete-property/ input-processors;
-};
